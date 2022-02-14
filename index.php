@@ -45,12 +45,6 @@
             case 'kantin':
                 include 'page/kantin.php';
                 break;
-            case 'galeri':
-                include 'page/galeri.php';
-                break;
-            case 'kontak':
-                include 'page/kontak.php';
-                break;
             default:
                 include 'page/home.php';
                 break;
