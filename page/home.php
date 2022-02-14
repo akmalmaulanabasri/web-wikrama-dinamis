@@ -9,7 +9,7 @@
             yang didirikan sebelum SMK Wikrama lainnya. SMK Wikrama Bogor awal
             berdiri pada tahun 1996 di Gudang KUD di daerah Tajur, Bogor.
             SMK Wikrama bergerak di bidang ICT dan telah menjadi sekolah
-            percontohan dan unggulan Nasional</p>
+            percontohan dan unggulan nasional</p>
     </div>
 
     <div class="tentang-bagian">
