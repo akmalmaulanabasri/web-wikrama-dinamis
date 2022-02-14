@@ -44,6 +44,12 @@ nav ol .navlist{
     float: right;
 }
 
+@media screen and (max-width: 768px){
+    nav ol .navlist{
+        display: none;
+    }
+}
+
 nav ol .navbar-list{
     float: left;
     list-style: none;

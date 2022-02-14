@@ -15,36 +15,3 @@ Kompetensi keahlian di SMK Wikrama Bogor pun terus berkembang. SMK Wikrama Bogor
 Kesuksesan SMK Wikrama Bogor saat ini tentunya tidak lepas dari sejarah SMK Wikrama Bogor  mulai dari membentuk visi dan misi, kerja keras hingga diakui dunia internasional hingga prestasi dan pengharagaan yang didapatkan SMK Wikrama Bogor sejak awal didirikan. Berikut sejarah yang dilalui SMK Wikrama Bogor berdasarkan urutan tahun.
         </p>
     </div>
-
-    <footer>
-        <div class="footer-bagian">
-
-            <div class="foto-wikrama">
-                <img src="assets/logowikrama.png" alt="">
-            </div>
-    
-            <div class="list-halaman">
-                <h2>Tentang Wikrama</h2>
-                <ul>
-                <li class="navbar-list"><a href="index.php?page=home">Beranda</a></li>
-                <li class="navbar-list"><a href="index.php?page=sejarah">Sejarah</a></li>
-                <li class="navbar-list"><a href="index.php?page=martikulasi">Martikulasi</a></li>
-                <li class="navbar-list"><a href="index.php?page=perpustakaan">Perpustakaan</a></li>
-                <li class="navbar-list"><a href="index.php?page=kantin">Kantin</a></li>
-                </ul>
-            </div>
-    
-            <div class="kontak">
-                <div class="alamat">
-                    <h2>Alamat Sekolah</h2>
-                    <h3>JL. RAYA WANGUN KEL. SINDANGSARI BOGOR, Kota Bogor, Jawa Barat</h3>
-                </div>
-                <div class="telepon">
-                    <h2>Kontak</h2>
-                    <h3>0251-8242411 <br>
-                        082221718035 (Whatsapp)</h3>
-                </div>
-            </div>
-            
-        </div>
-    </footer>
