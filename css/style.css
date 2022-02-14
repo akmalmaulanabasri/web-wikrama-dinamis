@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --blue: #A2D2FF;
+    --white: #ffffff;
+    --black: #000000;
+    --birtu : #0054A3;
+  }
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: var(--blue);
+    padding: 5px;
+    /* border: 1px solid black; */
+    box-shadow: black 0px 0px 10px;
+}
+
+nav ol{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+
+nav ol .navlist{
+    overflow: auto;
+    float: right;
+}
+
+nav ol .navbar-list{
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+nav ol .navbar-list:hover{
+    background-color: var(--birtu);
+    border-radius: 5px;
+    --putih : #ffffff;
+}
+
+nav ol .navbar-list a{
+    text-decoration: none;
+    color: var(--putih);
+    margin: 5px 10px 5px 10px;
+}
+
+
+.foto-mobile-doang{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ol .navbar-list:hover{
+        background-color: var(--birtu);
+    }
+
+    nav ol .navlist{
+    }
+
+    nav ol .navbar-list{
+        /* width: 30%; */
+        line-height: 31px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border : 1px solid black;
+        border-radius: 5px;
+        margin-top: 10px;
+        float: left;
+        padding: 5px 10px 5px 10px;
+    }
+
+    nav ol .navbar-list a{
+        font-size: 15px;
+        margin: auto;
+}
+}
+
+nav ol .navbar-logo{
+    float: left;
+    /* cursor: pointer; */
+    list-style: none;
+}
+
+nav ol .navbar-logo img{
+    height: 50px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ol{}
+    nav ol .navbar-logo{
+        width: 100%;
+        padding: 0;
+    }
+    nav ol .navbar-logo img{
+        display: none;
+        margin-right: auto;
+        margin-left: auto;
+    }  
+    .foto-mobile-doang{
+        display: block;
+    }
+    .foto-mobile-doang img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 80px;
+    }
+
+}
+
+.master-bagian{
+    margin-top: 65px;
+    background-image: url('../assets/bg-home.png');
+    background-repeat: cover;
+    background-size: auto;
+    height: 400px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    .master-bagian{
+        height: auto;
+    }
+
+    .halaman-sejarah{
+        margin-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .halaman-utama{
+        margin-top: 120px;
+        padding-bottom: 20px;
+    }
+
+    .halaman-martikulasi{
+        margin-top: 120px;
+        padding-bottom: 20px;
+    }
+
+    .halaman-perpustakaan{
+        margin-top: 120px;
+        padding-bottom: 20px;
+    }
+
+    .halaman-kantin{
+        margin-top: 120px;
+        padding-bottom: 20px;
+    }
+}
+
+.master-bagian h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: black 2px 3px 2px;
+}
+
+.master-bagian h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: black 2px 3px 2px;
+}
+
+.welcome-bagian{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.welcome-bagian h1{
+    font-size: 36px;
+}
+
+.welcome-bagian p{
+    font-size: 24px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.tentang-bagian{
+    background-color: var(--blue);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.tentang-bagian .about{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: var(--black) 2px 3px 5px;
+}
+
+.tentang-bagian .about .foto-wikrama{
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    padding: 10px;
+}
+
+.tentang-bagian .about .foto-wikrama img{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tentang-bagian .about .wikrama{
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.tentang-bagian .about .wikrama h1{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tentang-bagian .about .wikrama h3{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.tentang-bagian .about .wikrama ol{
+    font-size: 20px;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.tentang-bagian .about .wikrama ol li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 32%;
+}
+
+@media only screen and (max-width: 600px) {
+    .tentang-bagian .about .foto-wikrama{
+        display: none;
+    }
+    .tentang-bagian .about .wikrama{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        float: none;
+    }
+}
+
+.galeri{
+    width: 100%;
+}
+
+.galeri h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.galeri .gambar-galeri{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.galeri .gambar-galeri img{
+    width: 33%;
+    border-radius: 10px;
+    height:200px;
+    box-shadow: var(--black) 2px 3px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .galeri .gambar-galeri{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .galeri .gambar-galeri img{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--birtu);
+    color: var(--white);
+}
+
+.footer-bagian{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.footer-bagian .foto-wikrama{
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-bagian .foto-wikrama img{
+    width: 50%;
+    margin: auto;
+}
+
+.footer-bagian .list-halaman{
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-bagian .list-halaman ul li{
+    font-size: 20px;
+}
+
+.footer-bagian .list-halaman ul li a{
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-bagian .kontak{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-bagian .kontak .alamat h3{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-bagian .kontak .telepon h3{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-bagian{
+        display: block;
+    }
+
+    .footer-bagian .foto-wikrama{
+        display: none;
+    }
+    .footer-bagian .list-halaman{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .footer-bagian .kontak{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer-bagian .kontak .telepon{
+        margin-top: 20px;
+    }
+
+    .footer-bagian .alamat h2{
+        margin-left: 20px;
+    }
+
+    .footer-bagian .kontak .telepon h2{
+        margin-left: 20px;
+    }
+}
