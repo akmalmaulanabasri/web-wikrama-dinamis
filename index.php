@@ -1,7 +1,4 @@
-   
-   
    <?php
-
    include "lib/header.php";
 
     if(isset($_GET['page'])){
@@ -31,6 +28,4 @@
     }
 
    include "lib/footer.php";
-
-
     ?>
